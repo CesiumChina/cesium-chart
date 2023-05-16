@@ -22,7 +22,7 @@ npm install @dvgis/cesium-chart
 `CDN`
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@dvgis/dc-sdk/dist/dc.base.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@dvgis/cesium-chart/dist/cesium.chart.min.js"></script>
 ```
 
 ## Usage

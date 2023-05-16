@@ -31,7 +31,7 @@ async function buildChart(options) {
         ],
         plugins: ['@babel/plugin-transform-runtime'],
       }),
-      // terser(),
+      terser(),
     ],
   })
 

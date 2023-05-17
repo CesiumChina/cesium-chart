@@ -12,7 +12,7 @@ import terser from '@rollup/plugin-terser'
 async function buildChart(options) {
   const bundle = await rollup({
     input: 'src/index',
-    external: ['cesium', 'echarts'],
+    external: ['cesium/Build/Cesium', 'echarts'],
     plugins: [
       commonjs(),
       resolve({ preferBuiltins: true }),
@@ -43,7 +43,7 @@ async function buildChart(options) {
       name: 'window',
       extend: true,
       globals: {
-        cesium: 'Cesium',
+        'cesium/Build/Cesium': 'Cesium',
       },
       sourcemap: false,
     })

@@ -2,8 +2,8 @@
   @Author: Caven Chen
 **/
 
-import * as echarts from 'echarts'
-echarts.extendComponentView({
+import { extendComponentView } from 'echarts'
+extendComponentView({
   type: 'GLMap',
   init: function (ecModel, api) {
     this.api = api

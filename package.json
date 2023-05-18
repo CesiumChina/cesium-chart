@@ -4,6 +4,12 @@
   "repository": "git@github.com:dvgis/cesium-chart.git",
   "author": "Caven Chen <cavencj@gmail.com>",
   "license": "Apache 2.0",
+  "keywords": [
+    "3D",
+    "cesium",
+    "map",
+    "echarts"
+  ],
   "main": "dist/index.cjs",
   "type": "module",
   "scripts": {

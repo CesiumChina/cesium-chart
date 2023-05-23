@@ -3,7 +3,7 @@
  @date : 2023-05-15
  */
 
-import { Cartesian3, Ellipsoid, Math as CesiumMath } from 'cesium/Build/Cesium'
+import { Cartesian3, Ellipsoid, Math as CesiumMath } from '@cesium/engine'
 import { graphic, matrix } from 'echarts'
 
 class GLMapCoordSys {

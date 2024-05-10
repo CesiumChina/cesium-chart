@@ -1,6 +1,6 @@
 {
   "name": "@cesium-china/cesium-chart",
-  "version": "1.0.0,
+  "version": "1.0.0",
   "repository": "git@github.com:cesium-china/cesium-chart.git",
   "author": "Caven Chen <cavencj@gmail.com>",
   "license": "Apache 2.0",
